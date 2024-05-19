@@ -8,7 +8,6 @@
  
 <frameset rows="80,*,80" frameborder="no" border="0" framespacing="0">
   <frame src="menu.php" name="topFrame" scrolling="no" noresize="noresize" id="topFrame">
-    #document (https://rochadaniel2008.000webhostapp.com/menu/menu.php)
     <html lang="pt-br">
       <head>
         <meta charset="UTF-8">
