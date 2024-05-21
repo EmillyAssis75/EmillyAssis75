@@ -89,7 +89,6 @@
     </html>
   </frame>
   <frame src="footer.php" name="bottomFrame" scrolling="No" noresize="noresize" id="bottomFrame">
-    #document (https://rochadaniel2008.000webhostapp.com/menu/footer.php)
  
     <html lang="en">
       <head>
