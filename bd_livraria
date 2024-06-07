@@ -1,0 +1,26 @@
+create database livraria_evas;
+use database livraria_evas;
+
+//drop database livraria_evas;
+
+create table livro_evas (
+id_livro_evas unique primary key not null auto_increment,
+genero_evas varchar(45) not null,
+titulo_evas varchar(255) not null,
+paginas_evas varchar(45) not null,
+editora_evas varchar(45) not null,
+autor_evas varchar(255) not null );
+
+//drop table livro_evas;
+
+insert into livro_evas ( fantasia, A Rainha vermelha, 424, Seguinte, Victória Aveyard );
+insert into livro_evas ( terror, Drácula, 434, Pé da Letra, Bram Stoker );
+insert into livro_evas ( romance, Vermelho Branco e Sangue Azul, Seguinte, Casey Mcquinston);
+insert into livro_evas ();
+insert into livro_evas ();
+insert into livro_evas ();
+insert into livro_evas ();
+insert into livro_evas ();
+insert into livro_evas ();
+insert into livro_evas ();
+
