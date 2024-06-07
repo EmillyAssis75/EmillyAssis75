@@ -1,3 +1,5 @@
+/*batalha naval*/
+
 //function createBattleField - cria o campo de batalha de acordo. O parâmetro 'qnt' obtém o número da matriz do jogo
 
 var  qntCasas  =  0  //Recebe a quantidade de casas que o jogo terá para fazer a distribuição dos barcos
