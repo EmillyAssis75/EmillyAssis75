@@ -1,8 +1,6 @@
 create database livraria_evas;
 use database livraria_evas;
 
-/*drop database livraria_evas;*/
-
 create table livro_evas (
 id_livro_evas primary key int not null auto_increment,
 genero_evas varchar(45) not null,
