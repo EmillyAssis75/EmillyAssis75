@@ -23,16 +23,16 @@ insert into livros_evas
 (genero_evas, titulo_evas, paginas_evas, editora_evas, autor_evas, classificacao_evas) 
 
 values
-( 'fantasia jovem', 'A Rainha vermelha', '424', 'Seguinte', 'Victória Aveyard', '14' ),
-( 'terror', 'Drácula', '434', 'Pé da Letra', 'Bram Stoker', '16' ),
-( 'romance jovem', 'Vermelho Branco e Sangue Azul', '456', 'Seguinte', 'Casey Mcquinston', '14' ),
-( 'fantasia', 'Corte de Rosas e Espinhos', '434', 'Galera', 'Sarah J. Maas', '16' ),
-( 'ficção', 'A Maldição do Mar', '320', 'Galera', 'Shea Ernshaw', '10' ),
-( 'romance', 'A Seleção', '363', 'Seguinte', 'Kiera Cass', '16' ),
-( 'ficção fantasiosa', 'Mordida', '112', 'Seguinte', 'Sarah Andersen', '12' ),
-( 'ficção científica', 'Biblioteca da Meia-Noite', '366', 'Bertrand Brasil', 'Matt Haig', '14' ),
-( 'ficção histórica', 'A Vida Invisível de Addie Larue', '504', 'Galera', 'V.E. Schwab', '14' ),
-( 'suspense', 'Death Note', '400', 'JBC', 'Tsugumi Ohba', '18' );
+('fantasia jovem', 'A Rainha vermelha', '424', 'Seguinte', 'Victória Aveyard', '14' ),
+('terror', 'Drácula', '434', 'Pé da Letra', 'Bram Stoker', '16' ),
+('romance jovem', 'Vermelho Branco e Sangue Azul', '456', 'Seguinte', 'Casey Mcquinston', '14' ),
+('fantasia', 'Corte de Rosas e Espinhos', '434', 'Galera', 'Sarah J. Maas', '16' ),
+('ficção', 'A Maldição do Mar', '320', 'Galera', 'Shea Ernshaw', '10' ),
+('romance', 'A Seleção', '363', 'Seguinte', 'Kiera Cass', '16' ),
+('ficção fantasiosa', 'Mordida', '112', 'Seguinte', 'Sarah Andersen', '12' ),
+('ficção científica', 'Biblioteca da Meia-Noite', '366', 'Bertrand Brasil', 'Matt Haig', '14' ),
+('ficção histórica', 'A Vida Invisível de Addie Larue', '504', 'Galera', 'V.E. Schwab', '14' ),
+('suspense', 'Death Note', '400', 'JBC', 'Tsugumi Ohba', '18' );
 
 /*
 select * from livros_evas;
