@@ -50,9 +50,9 @@ select * from livros_evas where titulo_evas like %Rainha% ;
 select * from livros_evas where (genero_evas = 'romance' and editora_evas = 'Seguinte')
 or (Not (genero_evas = 'romance' and editora_evas = 'Seguinte') and (genero_evas = 'ficção' and editora_evas = 'Galera'));
 
-select * from livros_evas where clasificacao_evas between12 and 18;
-select * from livros_evas order by clasificacao_evas asc;
-select * from livros_evas order by clasificacao_evas desc;
+select * from livros_evas where classificacao_evas between12 and 18;
+select * from livros_evas order by classificacao_evas asc;
+select * from livros_evas order by classificacao_evas desc;
 */
 
 /*drop database livraria_evas;*/
