@@ -19,22 +19,28 @@ alter table livros_evas add classificacao_evas varchar(3) not null;
 delect from livros_evas where paginas_evas;
 */
 
-insert into livros_evas ( fantasia jovem, A Rainha vermelha, 424, Seguinte, Victória Aveyard, 14 );
-insert into livros_evas ( terror, Drácula, 434, Pé da Letra, Bram Stoker, 16 );
-insert into livros_evas ( romance jovem, Vermelho Branco e Sangue Azul, 456, Seguinte, Casey Mcquinston, 14 );
-insert into livros_evas ( fantasia, Corte de Rosas e Espinhos, 434, Galera, Sarah J. Maas, 16 );
-insert into livros_evas ( ficção, A Maldição do Mar, 320, Galera, Shea Ernshaw, 10 );
-insert into livros_evas ( romance, A Seleção, 363, Seguinte, Kiera Cass, 16 );
-insert into livros_evas ( ficção fantasiosa, Mordida, 112, Seguinte, Sarah Andersen, 12 );
-insert into livros_evas ( ficção científica, Biblioteca da Meia-Noite, 366, Bertrand Brasil, Matt Haig, 14 );
-insert into livros_evas ( ficção histórica, A Vida Invisível de Addie Larue, 504, Galera, V.E. Schwab, 14 );
-insert into livros_evas ( suspense, Death Note, 400, JBC, Tsugumi Ohba, 18 );
+insert into livros_evas 
+(genero_evas, titulo_evas, paginas_evas, editora_evas, autor_evas, classificacao_evas) 
+
+values
+( 'fantasia jovem', 'A Rainha vermelha', '424', 'Seguinte', 'Victória Aveyard', '14' ),
+( 'terror', 'Drácula', '434', 'Pé da Letra', 'Bram Stoker', '16' ),
+( 'romance jovem', 'Vermelho Branco e Sangue Azul', '456', 'Seguinte', 'Casey Mcquinston', '14' ),
+( 'fantasia', 'Corte de Rosas e Espinhos', '434', 'Galera', 'Sarah J. Maas', '16' ),
+( 'ficção', 'A Maldição do Mar', '320', 'Galera', 'Shea Ernshaw', '10' ),
+( 'romance', 'A Seleção', '363', 'Seguinte', 'Kiera Cass', '16' ),
+( 'ficção fantasiosa', 'Mordida', '112', 'Seguinte', 'Sarah Andersen', '12' ),
+( 'ficção científica', 'Biblioteca da Meia-Noite', '366', 'Bertrand Brasil', 'Matt Haig', '14' ),
+( 'ficção histórica', 'A Vida Invisível de Addie Larue', '504', 'Galera', 'V.E. Schwab', '14' ),
+( 'suspense', 'Death Note', '400', 'JBC', 'Tsugumi Ohba', '18' );
 
 /*
 select * from livros_evas;
-update livros_evas set genero_evas = romance where ficção;
-update livros_evas set claassificacao_evas = 18 where 16;
-delect from livros_evas where ;
+
+update livros_evas set genero_evas = 'romance' where genero_evas = 'ficção';
+update livros_evas set claassificacao_evas = '18' where claassificacao_evas = '16';
+
+delect from livros_evas where titulo_evas = 'A Vida Invisível de Addie Larue';
 */
 
 
