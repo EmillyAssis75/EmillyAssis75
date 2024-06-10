@@ -1,7 +1,7 @@
 create database livraria_evas;
 use database livraria_evas;
 
-//drop database livraria_evas;
+/*drop database livraria_evas;*/
 
 create table livro_evas (
 id_livro_evas unique primary key not null auto_increment,
@@ -11,16 +11,16 @@ paginas_evas varchar(45) not null,
 editora_evas varchar(45) not null,
 autor_evas varchar(255) not null );
 
-//drop table livro_evas;
+/*drop table livro_evas;*/
 
-insert into livro_evas ( fantasia, A Rainha vermelha, 424, Seguinte, Victória Aveyard );
+insert into livro_evas ( fantasia jovem, A Rainha vermelha, 424, Seguinte, Victória Aveyard );
 insert into livro_evas ( terror, Drácula, 434, Pé da Letra, Bram Stoker );
-insert into livro_evas ( romance, Vermelho Branco e Sangue Azul, Seguinte, Casey Mcquinston);
-insert into livro_evas ();
-insert into livro_evas ();
-insert into livro_evas ();
-insert into livro_evas ();
-insert into livro_evas ();
-insert into livro_evas ();
-insert into livro_evas ();
+insert into livro_evas ( romance jovem, Vermelho Branco e Sangue Azul, 456, Seguinte, Casey Mcquinston );
+insert into livro_evas ( fantasia, Corte de Rosas e Espinhos, 434, Galera, Sarah J. Maas );
+insert into livro_evas ( ficção, A Maldição do Mar, 320, Galera, Shea Ernshaw );
+insert into livro_evas ( romance, A Seleção, 363, Seguinte, Kiera Cass );
+insert into livro_evas ( ficção fantasiosa, Mordida, 112, Seguinte, Sarah Andersen );
+insert into livro_evas ( ficção científica, Biblioteca da Meia-Noite, 366, Bertrand Brasil, Matt Haig );
+insert into livro_evas ( ficção histórica, A Vida Invisível de Addie Larue, 504, Galera, V.E. Schwab );
+insert into livro_evas ( suspense, Death Note, 400, JBC, Tsugumi Ohba );
 
