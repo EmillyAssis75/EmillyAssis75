@@ -1,6 +1,19 @@
 create database livraria_evas;
 use database livraria_evas;
 
+create table cliente_evas (
+id_cliente_evas primary key int not null auto_increment,
+cpf_cliente_evas unique int not null varchar(45),
+pagamento_evas varchar(45) not null,
+id_livro_evas foreign key not nul int );
+
+create table vendedor_evas (
+id_vendedor_evas primary key int not null auto_increment,
+cpf_vendedor_evas unique int not null varchar(45)
+caixa_de_operacao_evas not null varchar(45)
+turno_evas not null varchar(45)
+salario_evas not null varchar(45) int ); 
+
 create table livro_evas (
 id_livro_evas primary key int not null auto_increment,
 genero_evas varchar(45) not null,
